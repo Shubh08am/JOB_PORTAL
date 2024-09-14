@@ -1,0 +1,87 @@
+
+what have u done in your project?
+
+made a job portal application -> which is a mern stack based application 
+
+I have made use of mongodb for backend which supports schema for my application and gives us CRUD functionalities 
+
+Q1. WHY HAVE U USED MONGO-DB ? TELL ABOUT NO-SQL ADVANTAGES -> COMPARE WITH SQL THINGS 
+Q2. TELL ABOUT ADVANTAGES OF CRUD THINGS -> ABOUT CONSISTENCY,INTEGRITY CONSTRAINTS 
+
+link -> https://chatgpt.com/share/4e34e40b-cb35-4ed9-8156-9ccc4532a9c1 
+
+
+EXPLAINING THE PROJECTS -> 
+I have made a job portal application using mern stack and for database I have used mongo-db 
+
+this application has 2 version of usage 
+
+first version is for EMPLOYEER 
+EMPLOYEER comes on the job portal and first they create there account and than they can create a job opening and post the same job opening on this application. 
+they are allowed to post multiple job openings. 
+EMPLOYEER can also modify there posted job and set there expiration date. 
+and EMPLOYEER have the functionalities of viewing that which all applicants have applied for the posted application and 
+thus they can filter out the suitable candidates by viewing there applications.
+
+
+second version is for JOB-SEEKEER 
+JOB-SEEKER comes on this portal and create there accounts first Now I have made use of JWT To make sure user Authentication features are applied here.
+
+****** NOW, TELL ABOUT JWT TOKENS? WHAT IS IT AND WHAT ARE ITS ADVANTAGES ******** 
+**** JWT TOKENS STRUCTURE -> HEADER---PAYLOAD---SECRET KEY  *******  --> video -->  https://youtu.be/xrj3zzaqODw?si=LfjlgmWiISG6_VFL
+*** tokens converted into cookies -> local storage  -> read here -> https://chatgpt.com/share/569d5355-e898-46c7-8ff9-fc21d8618e97
+****** MAKE SURE TO TELL ABOUT LOCAL STORAGE VS SESSION STORAGE && COOKIES THINGS***
+
+than, job seekers can see all current posted job opening in the application and apply for the same 
+and when they apply for any opening employeer get notified about an job seeker has applied for the posted job.
+
+
+***** NOW, UNDERSTANDING ABOUT THE DESIGN OF OUR PROJECT / SCHEMA OF OUR PROJECT ********
+Q. SEE WHAT IS SCHEMA FIRST OF ALL AND HOW TO CREATE SCHEMA IN MONGO-DB 
+
+than explain about 3 schema created here -> 
+1. FOR USER WHO COMES AND CREATE THERE ACCOUNT 
+2. FOR JOBS POSTING 
+3. FOR APPLICATION -> FOR APPLYING ON JOBS OPENING
+4. SEE ABOUT CONSISTENCY CONSTRAINTS ABOUT HERE 
+
+
+
+********** Q.DIFFERENCE BETWEEN AUTHENTICATION AND AUTHORIZATION 
+Q. How, to make sure correct user gets access of the feature here i.e how are you authorizing here *****
+i.e only employeer allowed to post for a job and job seeker apply on it..
+Q. SEE ABOUT HTTP METHODS USED -> GET,PUT,PATCH,DELETE,POST AND SPECIALLY PUT VS PATCH 
+Q. WHAT ARE YOU SENDING IN HTTP HEADER WHILE MAKING POST REQUEST I.E WHEN LETS SAY WE ARE CREATING A JOB -> postjob.jsx 
+
+********** GENERAL QUESTION ************ 
+Q. CHALLENGES FACED IN THE PROJECT 
+Q. FUTURE SCOPES
+Q. MOTIVATION BEHIND THIS PROJECT  
+Q. LEARNING FROM THE PROJECT 
+Q. WHAT IS NODE.JS/EXPRESS.JS AND FOR WHAT THINGS ARE THEY USED 
+LINKS -> https://www.geeksforgeeks.org/node-interview-questions-and-answers/ && https://www.geeksforgeeks.org/top-50-express-js-interview-questions-and-answers/
+Q. WHAT IS ROUTES AND ROUTERS --> LINK --> https://chatgpt.com/share/4e34e40b-cb35-4ed9-8156-9ccc4532a9c1 
+
+
+NOW, FOR BACKEND PART 
+
+*** SEE ABOUT MIDDLEWARES WHAT ARE THEY USED FOR **** 
+
+than, in this project explaing about that error handling middlewares and catch async error middlewares 
+**********And about various routes/end point made in this projects.************  ask saxena about end points 
+
+Q. RESUME UPLOAD STORE WHERE -> CLOUDINARY -> READ ABOUT IT 
+
+
+** FRONTEND ** 
+TELL ABOUT CORS , BCRYPT (PASSWORD ENCRYPTION, COMPARISON PURPOSE) 
+** tell about react hooks *** 
+*** i have used following hooks in my project -> useEffect , context hook 
+ABOUT CONTEXT hooks
+
+
+**** NAVBAR.JSX *********** 
+-> JOB SEEKER -> 
+-> EMPLOYEER -> 
+
+
